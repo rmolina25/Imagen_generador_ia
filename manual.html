@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario - Generador de Imágenes con IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        .important {
+            background-color: #f8f9fa;
+            border-left: 4px solid #e74c3c;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .header-logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .company-name {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-top: 2px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-logo">
+        <h1>Manual de Usuario - Generador de Imágenes con IA</h1>
+        <div class="company-name">
+            <strong>RM Soluciones Informáticas</strong>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Introducción a la Aplicación</h2>
+        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px;">
+            <h3 style="color: #2c3e50;">¿Qué es el Generador de Imágenes con IA?</h3>
+            <p>
+                Esta aplicación es una herramienta innovadora que permite a los usuarios crear imágenes personalizadas 
+                utilizando inteligencia artificial. A través de la potente API de OpenAI (DALL-E), los usuarios pueden 
+                convertir descripciones textuales en imágenes únicas y creativas.
+            </p>
+
+            <h3 style="color: #2c3e50;">Características Principales</h3>
+            <ul>
+                <li><strong>Generación de Imágenes por Texto:</strong> 
+                    <p>Simplemente describe lo que deseas ver y la IA creará una imagen basada en tu descripción.</p>
+                </li>
+                <li><strong>Múltiples Estilos Artísticos:</strong>
+                    <p>Elige entre diversos estilos como realista, artístico, cartoon, pintura al óleo, y más.</p>
+                </li>
+                <li><strong>Personalización Avanzada:</strong>
+                    <p>Ajusta parámetros como tamaño, estilo y detalles específicos de la imagen.</p>
+                </li>
+                <li><strong>Galería Personal:</strong>
+                    <p>Guarda y organiza todas tus creaciones en tu biblioteca personal.</p>
+                </li>
+                <li><strong>Compartir Creaciones:</strong>
+                    <p>Descarga y comparte fácilmente tus imágenes generadas.</p>
+                </li>
+            </ul>
+
+            <h3 style="color: #2c3e50;">¿Para Quién está Diseñada?</h3>
+            <ul>
+                <li>Diseñadores buscando inspiración</li>
+                <li>Creadores de contenido digital</li>
+                <li>Artistas explorando nuevas técnicas</li>
+                <li>Empresas necesitando recursos visuales únicos</li>
+                <li>Cualquier persona interesada en crear imágenes únicas</li>
+            </ul>
+
+            <div class="important">
+                <strong>Ventajas Clave:</strong>
+                <ul>
+                    <li>Creación rápida de imágenes profesionales</li>
+                    <li>No requiere habilidades de diseño previas</li>
+                    <li>Resultados únicos y personalizados</li>
+                    <li>Interfaz intuitiva y fácil de usar</li>
+                    <li>Almacenamiento seguro de creaciones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Información Técnica de la Aplicación</h2>
+        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px;">
+            <h3 style="color: #2c3e50;">Tecnologías Utilizadas</h3>
+            <ul>
+                <li><strong>API Principal:</strong>
+                    <ul>
+                        <li>OpenAI DALL-E API</li>
+                        <li>Modelo GPT para procesamiento de prompts</li>
+                    </ul>
+                </li>
+                <li><strong>Lenguajes de Programación:</strong>
+                    <ul>
+                        <li>PHP (Backend y manejo de API)</li>
+                        <li>HTML5 (Estructura)</li>
+                        <li>CSS3 (Estilos)</li>
+                        <li>JavaScript (Interacción con la API y manipulación de imágenes)</li>
+                    </ul>
+                </li>
+                <li><strong>Base de Datos:</strong>
+                    <ul>
+                        <li>MySQL (Almacenamiento de usuarios e imágenes generadas)</li>
+                        <li>Sistema de almacenamiento de imágenes en servidor</li>
+                    </ul>
+                </li>
+                <li><strong>Características Principales:</strong>
+                    <ul>
+                        <li>Generación de imágenes con IA</li>
+                        <li>Historial de imágenes generadas</li>
+                        <li>Edición y ajuste de prompts</li>
+                        <li>Descarga de imágenes en diferentes formatos</li>
+                        <li>Galería de imágenes generadas</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3 style="color: #2c3e50;">Funcionalidades de IA</h3>
+            <ul>
+                <li><strong>Generación de Imágenes:</strong>
+                    <ul>
+                        <li>Resoluciones disponibles: 256x256, 512x512, 1024x1024</li>
+                        <li>Múltiples estilos artísticos</li>
+                        <li>Personalización de parámetros</li>
+                    </ul>
+                </li>
+                <li><strong>Optimización de Prompts:</strong>
+                    <ul>
+                        <li>Sugerencias automáticas</li>
+                        <li>Mejora de descripciones</li>
+                        <li>Historial de prompts exitosos</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3 style="color: #2c3e50;">Requisitos del Sistema</h3>
+            <ul>
+                <li>Servidor web con PHP 7.4 o superior</li>
+                <li>MySQL 5.7 o superior</li>
+                <li>Clave API válida de OpenAI</li>
+                <li>Navegador web moderno con JavaScript habilitado</li>
+                <li>Conexión a Internet estable</li>
+                <li>Espacio en disco suficiente para almacenar imágenes</li>
+            </ul>
+
+            <h3 style="color: #2c3e50;">Límites y Consideraciones</h3>
+            <ul>
+                <li>Cuota de API según plan de OpenAI</li>
+                <li>Tiempo de generación: 5-15 segundos por imagen</li>
+                <li>Almacenamiento temporal de imágenes: 30 días</li>
+                <li>Máximo de generaciones por usuario: 50/día</li>
+            </ul>
+
+            <div class="important" style="margin-top: 20px;">
+                <strong>Nota para Desarrolladores:</strong> 
+                <ul>
+                    <li>Configure su clave API de OpenAI en <code>config/config.php</code></li>
+                    <li>Ajuste los límites de uso en el panel de administración</li>
+                    <li>Monitoree el uso de la API para evitar costos excesivos</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>1. Generación de Imágenes</h2>
+        <p>Para generar una nueva imagen:</p>
+        <ol>
+            <li>Inicie sesión en su cuenta</li>
+            <li>Acceda al generador de imágenes</li>
+            <li>Escriba una descripción detallada de la imagen que desea crear</li>
+            <li>Seleccione el tamaño y estilo deseado</li>
+            <li>Haga clic en "Generar Imagen"</li>
+            <li>Espere mientras la IA procesa su solicitud</li>
+        </ol>
+        <div class="important">
+            <strong>Consejo:</strong> Cuanto más específica sea su descripción, mejores resultados obtendrá.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>2. Registro de Usuario Nuevo</h2>
+        <p>Para crear una nueva cuenta:</p>
+        <ol>
+            <li>Acceda a la página de registro (<code>registro.php</code>)</li>
+            <li>Complete el formulario con sus datos personales:
+                <ul>
+                    <li>Nombre completo</li>
+                    <li>Correo electrónico</li>
+                    <li>Contraseña</li>
+                    <li>Confirmación de contraseña</li>
+                </ul>
+            </li>
+            <li>Haga clic en "Registrarse"</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>3. Recuperación de Contraseña</h2>
+        <p>Si olvidó su contraseña:</p>
+        <ol>
+            <li>Haga clic en "¿Olvidó su contraseña?" en la página de inicio de sesión</li>
+            <li>Ingrese su correo electrónico registrado</li>
+            <li>Siga las instrucciones enviadas a su correo electrónico</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>4. Cerrar Sesión</h2>
+        <p>Para salir del sistema de forma segura:</p>
+        <ol>
+            <li>Haga clic en el botón "Cerrar Sesión" ubicado en la esquina superior derecha</li>
+            <li>Será redirigido a la página de inicio de sesión</li>
+        </ol>
+        <div class="important">
+            <strong>Importante:</strong> Siempre cierre sesión cuando termine de usar el sistema, especialmente en computadoras compartidas.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Recomendaciones de Seguridad</h2>
+        <ul>
+            <li>Use contraseñas seguras que incluyan letras, números y símbolos</li>
+            <li>No comparta sus credenciales de acceso</li>
+            <li>Cambie su contraseña periódicamente</li>
+            <li>Asegúrese de cerrar sesión al terminar</li>
+            <li>No guarde sus credenciales en navegadores públicos</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>6. Solución de Problemas Comunes</h2>
+        <ul>
+            <li><strong>No puedo iniciar sesión:</strong> Verifique que su correo y contraseña sean correctos</li>
+            <li><strong>No recibo el correo de recuperación:</strong> Revise su carpeta de spam</li>
+            <li><strong>Error al registrarse:</strong> Asegúrese de que el correo no esté ya registrado</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p><strong>Desarrollado por RM Soluciones Informáticas</strong></p>
+        <p>Especialistas en Soluciones Tecnológicas Innovadoras</p>
+    
+        <p>&copy; 2024 RM Soluciones Informáticas - Todos los derechos reservados</p>
+    </div>
+</body>
+</html> 
